@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-    const Students = sequelize.define('vans', {
+    const Students = sequelize.define('students', {
         studentsid: {
             type: DataTypes.INTEGER,
             primaryKey: true,
